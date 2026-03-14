@@ -1,0 +1,38 @@
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+
+# LuaRocks
+*.rock
+*.rockspec~
+luarocks.lock
+
+# Build / output
+build/
+dist/
+output/
+tmp/
+cache/
+
+# Logs
+*.log
+logs/
+
+# Tests
+coverage/
+test_output/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.idea/
+.vscode/
+*.code-workspace
+
+# Lua LSP cache
+.luacov
+.luacheckcache
+
